@@ -1,0 +1,26 @@
+body {
+    background-color: #fffbf7;
+}
+
+h1 { 
+    text-align: center;
+    color: #025157;
+    font-size:60px;
+    }
+
+h4, form {
+    text-align: center;
+}
+
+p{
+    color: #8b8b8bcc;
+    margin-top: 15px;
+    text-align: center;
+}
+
+input {
+    border-radius: 5px;
+    padding: 10px;
+    border: solid 1px #8b8b8bcc;
+    height: 30px;
+}
