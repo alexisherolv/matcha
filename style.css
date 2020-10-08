@@ -57,17 +57,24 @@ body {
     padding: 6px 20px;
     margin-left: -10px;
     height: 30px;
-    border
+    border: none;
 }
 
 .intro img {
     display:block;
     margin:auto;
     width: 80%;
-    }
+}
+
+.intro2 img {
+    display:block;
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 .header {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     font-size: 0;
@@ -84,6 +91,7 @@ body {
     text-align: center;
     color: #025157;
     font-weight: 500;
+    margin-bottom: 20px;
   }
   .menu-item {
     display: inline;
@@ -92,7 +100,7 @@ body {
   }
 
   .menu-item:hover {
-    color: green;
+    color: #025157;
   }
   .actions {
     width: 15%;
@@ -139,6 +147,14 @@ body {
   .explanatory-video img {
     width: 120px;
     margin-top: 10px;
+  }
+
+  .publish h3 {
+    font-family: 'Alegreya', serif;
+    font-size: 40px;
+    color: #025157;
+    line-height: 1.5;
+    margin-bottom: 20px;
   }
 
   .publish {
