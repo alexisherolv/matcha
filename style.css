@@ -285,3 +285,164 @@ body {
   max-width: 100%;
 }
 
+.how-does-it-work {
+  background-color: #fffbf7;
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.how-does-it-work .title {
+  color: #025157;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 400;
+  font-family: "Alegreya", serif;
+  margin-bottom: 8px;
+}
+
+.how-does-it-work button {
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #025157;
+  color: #fff;
+  padding-top: 12px 12px 6px 12px;
+  height: 45px;
+  margin-left: 0;
+  border-radius: 8px;
+  margin-top: 6px;
+}
+
+.how-does-it-work .steps {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.how-does-it-work .steps .card-step {
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.how-does-it-work .steps .card-step .card-step-image {
+  position: relative;
+  height: 350px;
+}
+
+.steps .card-step .step-content {
+  padding: 30px 20px 40px 40px;
+  flex: 1;
+}
+
+.steps .card-step .step-content > * {
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.how-does-it-work .steps .card-step .card-step-image .card-step-bg {
+  width: 100%;
+  height: 100%;
+}
+
+.how-does-it-work .steps .card-step .card-step-image .card-step-icon {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 21px;
+}
+
+.how-does-it-work .steps .card-step .card-step-body {
+  padding: 25px;
+}
+
+.how-does-it-work .steps .card-step .card-step-body h3 {
+  font-size: 30px;
+  line-height: 36px;
+  font-family: "Alegreya", serif;
+  color: #025157;
+  font-weight: 400;
+  text-align: center;
+}
+
+.how-does-it-work .steps .card-step .card-step-body p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #46484c;
+  font-weight: 400;
+  height: 85px;
+  margin-bottom: 16px;
+}
+
+.how-does-it-work .steps .card-step .card-step-body a {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #67b54b;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media (max-width: 575px) {
+  .navbar,
+  .actions {
+    display: none;
+  }
+
+  main {
+    margin-top: 130px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .intro2 > img {
+    width: 100%;
+  }
+
+  .promo {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .explanatory-video > video {
+    width: 100%;
+  }
+
+  .publish {
+    margin-top: 10px;
+  }
+
+  .publish > h3 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
+  .publish > form {
+    flex-direction: column;
+  }
+
+  .publish > form > div {
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .publish > form > div > input {
+    width: 65%;
+  }
+
+  .features {
+    grid-template: repeat(4, 1fr) / 1fr;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .feature-image {
+    display: none;
+  }
+}
+
+
+
