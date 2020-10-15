@@ -35,19 +35,25 @@ body {
     text-align: center;
 }
 
+.h4-centrado{
+  color: #46484c;
+  font-family: "Slabo 27px", serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
 .p-centrado{
-    color: #8b8b8bcc;
-    margin-top: 15px;
-    text-align: center;
+  color: #8b8b8bcc;
+  margin-top: 15px;
 }
 
 .signup-form > input {
     border: solid 1px #8b8b8bcc;
     height: 30px;
     padding: 10px;
-    border-radius: 5px;
+    height: 100%;
+    border-radius: 8px;
 }
-
 .signup-form > button {
     background-color: #025157;
     color: #fff;
@@ -56,8 +62,8 @@ body {
     border-bottom-left-radius: 0;
     padding: 6px 20px;
     margin-left: -10px;
-    height: 30px;
-    border: none;
+    height: 100%;
+    border-radius: 8px;
 }
 
 .intro img {
@@ -130,6 +136,7 @@ body {
       height: 100%;
   }
 
+/*Utilizando Flex*/
   .promo {
     display: flex;
     width: 70%;
@@ -285,6 +292,7 @@ body {
   max-width: 100%;
 }
 
+/*Utilizando Grid CSS*/
 .how-does-it-work {
   background-color: #fffbf7;
   padding: 5% 10%;
@@ -384,17 +392,18 @@ body {
   text-decoration: none;
 }
 
+/*Utilizando queries para ajustar experiencia en moviles*/
 @media (max-width: 575px) {
   .navbar,
   .actions {
     display: none;
   }
 
-  main {
-    margin-top: 130px;
+  .main {
+    margin-top: 100px;
   }
 
-  h1 {
+  .h1 {
     font-size: 30px;
   }
 
